@@ -72,3 +72,41 @@ h2 + .user_review {
     border-top: 1px solid black;
 }
 
+.nav-inline{
+  display: inline-block;
+}
+
+a{
+  display: inline;
+  padding: 20px;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+}
+
+body{
+  width: 900px;
+  margin: 0 auto;
+}
+
+body>section{
+  float: right;
+  width: 700px;
+  display: inline-block;
+}
+
+aside{
+  float: left;
+  display: inline-block;
+  width: 180px;
+  margin-right: 15px;
+}
+
+body>section aside{
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+}
+
