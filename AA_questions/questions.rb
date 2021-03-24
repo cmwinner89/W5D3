@@ -13,7 +13,7 @@ end
 
 class User
 
-    def self.find_by_id
+    def self.find_by_id(arg)
         id = QuestionsDatabase.instance.execute(<<-SQL, id)
         SELECT
             *
